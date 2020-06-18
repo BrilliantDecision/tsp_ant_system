@@ -1,0 +1,87 @@
+  simulatedAnnealingAlgorithm.MainForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly simulatedAnnealingAlgorithm, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class graph: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    ant_algorithm(Int32, Int32, Int32, Double, Int32, Double, Int32, Int32, Double, ProgressBar): PrivateScope, Public, HideBySig
+    ant_algorithm(Int32, Int32, Int32, Double, Int32, Double, Int32, ProgressBar): PrivateScope, Public, HideBySig
+    initial_pheromone(vector<std::vector<double\,std::allocator<double> >\,std::allocator<std::vector<double\,std::allocator<double> > > >*, Double): PrivateScope, Public, HideBySig
+    initial_elite_ants(vector<int\,std::allocator<int> >*, Int32, Int32): PrivateScope, Public, HideBySig
+    getPath(vector<int\,std::allocator<int> >*, Int32): PrivateScope, Public, HideBySig
+    randPath(vector<int\,std::allocator<int> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    addVertex(vector<int\,std::allocator<int> >*): PrivateScope, Public, HideBySig
+    getPoint(vector<int\,std::allocator<int> >*, Int32): PrivateScope, Public, HideBySig
+    getPoints(vector<std::vector<int\,std::allocator<int> >\,std::allocator<std::vector<int\,std::allocator<int> > > >*): PrivateScope, Public, HideBySig
+    getDistances(vector<std::vector<double\,std::allocator<double> >\,std::allocator<std::vector<double\,std::allocator<double> > > >*): PrivateScope, Public, HideBySig
+    allPath(vector<int\,std::allocator<int> >*): PrivateScope, Public, HideBySig
+    setDistances(): PrivateScope, Public, HideBySig
+    getSizePoints(): PrivateScope, Public, HideBySig
+    setPoints(vector<std::vector<int\,std::allocator<int> >\,std::allocator<std::vector<int\,std::allocator<int> > > >*): PrivateScope, Public, HideBySig
+    setAllPaths(vector<int\,std::allocator<int> >*): PrivateScope, Public, HideBySig
+    setRandomGraph(): PrivateScope, Public, HideBySig
+    setN(Int32): PrivateScope, Public, HideBySig
+    sortPointsByPath(vector<int\,std::allocator<int> >*): PrivateScope, Public, HideBySig
+    clearAllPath(): PrivateScope, Public, HideBySig
+    clearAll(): PrivateScope, Public, HideBySig
+    clearPoints(): PrivateScope, Public, HideBySig
+    clearDistances(): PrivateScope, Public, HideBySig
+    clearMax(): PrivateScope, Public, HideBySig
+    get_max(Int32): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class simulatedAnnealingAlgorithm.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 lookResult : Public
+    Int32 allLook : Public
+    Int32 switcher : Public
+    Double endTimeAntStandard : Public
+    Double endTimeAntModify : Public
+    Boolean standard : Public
+    Boolean modify : Public
+    Int32 it : Public
+    Int32 a : Public
+    Int32 b : Public
+    Int32 q : Public
+    Double p : Public
+    Double pheromone_min : Public
+    Int32 elite_ants : Public
+    Int32 ant_squad : Public
+    Double maxPher : Public
+    Int32 max : Public
+    Boolean automaticInput : Public
+    Boolean drawPath : Public
+    Boolean drawLastRaw : Public
+    Int32 penSize : Public
+    Int32 circleSize : Public
+    Int32 accuracy : Public
+    System.Drawing.Graphics gp : Public
+    graph g : Public
+    System.Drawing.Pen pushCirclePen : Public
+    System.Drawing.SolidBrush fillCircleBrush : Public
+    System.Drawing.Pen pushRawPen : Public
+    System.Drawing.Pen popRawPen : Public
+    System.Drawing.Pen drawRawMainAntStandard : Public
+    System.Drawing.Pen drawRawMainAntModify : Public
+    std.vector<int\,std::allocator<int> >* current : Public
+    std.vector<int\,std::allocator<int> >* last : Public
+    std.vector<int\,std::allocator<int> >* looks : Public
+    std.vector<int\,std::allocator<int> >* oldPath : Public
+    std.vector<std::vector<int\,std::allocator<int> >\,std::allocator<std::vector<int\,std::allocator<int> > > >* oldPoints : Public
+    System.Windows.Forms.ProgressBar progressBar1 : Public

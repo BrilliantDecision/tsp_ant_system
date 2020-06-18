@@ -1,0 +1,9 @@
+﻿  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  MainForm.cpp
+C:\Users\Angel\source\repos\simulatedAnnealingAlgorithm\simulatedAnnealingAlgorithm\MainForm.h(142,44): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Angel\source\repos\simulatedAnnealingAlgorithm\simulatedAnnealingAlgorithm\MainForm.h(764,1): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Angel\source\repos\simulatedAnnealingAlgorithm\simulatedAnnealingAlgorithm\MainForm.h(844,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Angel\source\repos\simulatedAnnealingAlgorithm\simulatedAnnealingAlgorithm\MainForm.h(977,1): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  graph.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  simulatedAnnealingAlgorithm.vcxproj -> C:\Users\Angel\source\repos\simulatedAnnealingAlgorithm\x64\Debug\simulatedAnnealingAlgorithm.exe

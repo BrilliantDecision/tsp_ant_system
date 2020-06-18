@@ -1,0 +1,3 @@
+C:\Users\Angel\source\repos\simulatedAnnealingAlgorithm\simulatedAnnealingAlgorithm\x64\Release\simulatedAnnealingAlgorithm.vcxprojAssemblyReference.cache
+C:\Users\Angel\source\repos\simulatedAnnealingAlgorithm\simulatedAnnealingAlgorithm\x64\Release\simulatedAnnealingAlgorithm.MainForm.resources
+C:\Users\Angel\source\repos\simulatedAnnealingAlgorithm\simulatedAnnealingAlgorithm\x64\Release\simulatedAnnealingAlgorithm.vcxproj.GenerateResource.cache
